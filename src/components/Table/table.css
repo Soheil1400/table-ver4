@@ -1,0 +1,93 @@
+.title{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title-style{
+    font-size: 2rem;
+    color: #1A245E;
+}
+
+.button-new{
+    padding: 1rem;
+    width: 20%;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.new{
+    background-color: #00CA80;
+}
+
+table {
+    width: 100%;
+}
+
+thead tr td {
+    color: #DBE0E6;
+}
+
+#idS {
+    width: 10%;
+}
+
+#fNameS {
+    width: 25%;
+}
+
+#lNameS {
+    width: 25%;
+}
+
+#jobS {
+    width: 20%;
+}
+
+#button {
+    width: 20%;
+}
+
+.job-style{
+    color: #206AFE;
+}
+
+.button {
+    padding-top: 0.7rem;
+    width: 40%;
+    outline: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #fff;
+    margin-left: 1rem;
+    border-radius: 5px;
+    opacity: 0.5;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.button:hover{
+    opacity: 1;
+}
+
+.update {
+    background-color: #1F69FC;
+}
+
+.delete {
+    background-color: #FF5771;
+}
+input[type=text]{
+    width: 100%;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 10px 10px -10px;
+}
